@@ -15,7 +15,7 @@ app.get('/api/publications', async (req, res) => {
   }
 
   try {
-    const apiKey = 'AIzaSyC5URpFiW3v9GRcjv46S6R_S5_7s750UbQ';
+    const apiKey = 'Edit with your api key';
 
     const response = await axios.get('https://www.googleapis.com/books/v1/volumes', {
       params: {
